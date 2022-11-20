@@ -1,0 +1,37 @@
+collections/slug
+
+implemented new urls in admin -> category, sub, subsub, subsubsub, subsubsubsub
+implemented parent child relationship while seaching products
+frontend -> product list ko sidebar vako categories fix
+frontend -> product details ma vako categories breadcrumb fix
+frontend -> vendor le product add garda categories new system implemented
+products import
+flash deal
+seller commission
+frontend settings home categories
+
+frontend -> home ko -> category list -> comes from admin -> frontend settings -> top 10 categories
+frontend -> footer -> text color changes
+
+products import ra categories import bata 7 level of category chirni
+
+ekaithau bata search garni sabai categories
+brand category
+color
+products 24 ota aauney
+
+ALTER TABLE `categories` ADD `brand_id` INT NOT NULL AFTER `parent`;
+ALTER TABLE `products` ADD `subsubsubsubsubcategory_id` BIGINT NOT NULL DEFAULT '0' AFTER `subsubsubsubcategory_id`, ADD `subsubsubsubsubsubcategory_id` BIGINT NOT NULL DEFAULT '0' AFTER `subsubsubsubsubcategory_id`;
+
+
+products page
+    list 30 ota 
+    issues fix
+
+admin - products edit - slug changeable
+remove required from tax and unit
+product count 32 banayo
+categories - bulk delete, items per page
+seller products - bulk delete / items per page
+sellers - bulk delete / items per page
+categories lai csv ma download garney option

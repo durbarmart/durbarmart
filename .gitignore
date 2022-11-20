@@ -1,0 +1,15 @@
+.env.*.php
+.env.php
+/.env
+/idea
+/vscode
+/vagrant
+/vendor
+/public/uploads
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.DS_Store
+.idea/
+.zip

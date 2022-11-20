@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /compare/
+Disallow: /checkout/
+Disallow: /users/login/
+Disallow: /lib/
+Disallow: /admin/
+Disallow: /report/
+Disallow: /registration/
+Disallow: /cart/
+Disallow: /track_your_order/
+Sitemap: https://www.almandu.com/sitemap.xml

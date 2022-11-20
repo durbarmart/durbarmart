@@ -1,0 +1,81 @@
+/* your custom style goes here */
+
+.top-navbar {
+    background: #2e3192;
+    border-bottom: 1px solid #2e3192;
+}
+
+ul.inline-links > li,
+ul.inline-links > li > a {
+    color: #fff;
+}
+
+.logo-bar-area {
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.logo-bar-icons .nav-search-box .nav-box-icon,
+.logo-bar-icons .nav-compare-box .nav-box-icon,
+.logo-bar-icons .nav-wishlist-box .nav-box-icon,
+.logo-bar-icons .nav-cart-box .nav-box-icon {
+    color: #fff;
+}
+
+.footer .footer-bottom {
+    background: #484d53;
+}
+
+.logo-bar-area .navbar-brand img {
+    max-height: 60px;
+}
+
+.bottom-seo h1,
+.bottom-seo .bottom-seo-small-title {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 5px 0px 5px 0px;
+}
+
+.padding0 {
+    padding: 0;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+.fixedWidthSubCont {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.bottom-seo {
+    font-size: 12px;
+}
+
+.affiliates,
+.affiliates a {
+    color: #fff;
+    background-color: #777;
+    font-size: 12px;
+    line-height: 1.2;
+    border-top: 0.03125rem solid rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+.stock {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    background-color: var(--danger);
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    font-size: 12px;
+}

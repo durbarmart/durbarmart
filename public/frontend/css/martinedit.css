@@ -1,0 +1,237 @@
+.product-details-area .product-description-wrapper .product-title {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.btn-styled:hover {
+    background: transparent !important;
+    color: #dc3545 !important;
+    box-shadow: unset !important;
+    border: 1px solid;
+}
+
+.btn-link {
+    color: #dc3545;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+}
+
+.no-gutters,
+.seller-info-box,
+.seller-top-products-box,
+.product-desc-tab {
+    background: white;
+}
+
+.social-media.social-media--style-1-v4>li>a {
+    color: #dc3545 !important;
+}
+
+.seller-info-box,
+.seller-top-products-box {
+    border-left: 4px solid #dc3545 !important;
+}
+
+.seller-info-box .sold-by,
+.sidebar-box .box-title {
+    /* background-color: white !important; */
+}
+
+.product-box-3 .product-image img {
+    height: 88px !important;
+    width: 100%;
+}
+
+.jssocials-share-link {
+    border-radius: 5px;
+}
+
+.jssocials-share:hover {
+    transform: translateY(-5px);
+    transition: transform 0.5s;
+}
+
+.jssocials-share {
+    transition: 0.5s;
+}
+
+.product-box-3:hover {
+    box-shadow: 0 2px 6px rgb(0 0 0 / 15%);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tabs--style-1 .nav-tabs>li>a.active,
+.tabs--style-1 .nav-tabs>li:first-child>a.active,
+.tabs--style-2 .nav-tabs .nav-item.show .nav-link,
+.tabs--style-2 .nav-tabs .nav-link.active,
+.tabs--style-2 .nav-tabs .nav-link:hover {
+    border-bottom: 3px solid !important;
+}
+
+.pdp-mod-section-title {
+    display: none;
+}
+
+.product-box-2 .product-image img {
+    width: 100%;
+}
+
+checkbox-color input:checked~label:after {
+    color: rgb(0, 0, 0) !important;
+    font-size: 11px;
+    background: #7c7c7cb9;
+    display: flex;
+    height: 15px;
+    width: 15px;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.login div a.link {
+    text-decoration: none;
+    color: #3b5998;
+}
+
+.login .form-default .input-group--style-1 .input-group-addon,
+.registration .form-default .input-group--style-1 .input-group-addon,
+.login .form-default .form-control,
+.registration .form-default .form-control {
+    background: unset;
+}
+
+.login .heading,
+.registration .heading {
+    text-transform: capitalize;
+    font-weight: 600 !important;
+    color: #dc3545;
+}
+
+.login .card,
+.registration .card {
+    background: rgb(247 247 247) !important;
+}
+
+.login .image img,
+.registration .image img {
+    max-height: 500px;
+    min-height: 500px;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+}
+
+.login .card,
+.registration .card {
+    backdrop-filter: blur(18px) saturate(100%);
+    -webkit-backdrop-filter: blur(18px) saturate(100%);
+    margin: 35px 0px;
+}
+
+/* .login .card .heading,
+.registration .card .heading {
+    color: white;
+} */
+.login .card .btn-styled:hover .icon,
+.registration .card .btn-styled:hover .icon {
+    background: unset;
+}
+
+.login .card .btn-styled:hover,
+.registration .card .btn-styled:hover {
+    border: 1px solid #dc3545;
+}
+
+.gry-bg .compare-table td img {
+    max-height: 400px;
+    min-height: 400px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    padding: 0 !important;
+}
+
+/* Product Compare */
+.ion-android-cart {
+    display: none;
+}
+
+/* Product Compare Ends */
+.widget-profile-box {
+    border: 1px solid;
+    border-style: dashed;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.sidebar-widget-title {
+    display: none;
+}
+
+.input-group-addon {
+    color: #fff !important;
+    background-color: #dc3545 !important;
+    border-color: #626262;
+    -webkit-transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+}
+
+.table thead th {
+    font-weight: 600 !important;
+}
+
+.table .badge-pill {
+    padding: 10px 15px;
+}
+
+/* .btn-styled:hover {
+    border: 0 !important;
+} */
+#error_page .error img {
+    max-height: 400px;
+    min-height: 400px;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+}
+
+/* .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+} */
+.products-box-bar .nothing-wrap p {
+    font-size: 1.2rem;
+    color: #dc3545;
+    font-weight: 500;
+}
+
+.products-box-bar .nothing {
+    max-height: 300px;
+    min-height: 300px;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+}
+
+/* #container {
+    background-image: none !important;
+    background: none !important;
+} */
+
+.media-banner img {
+    max-height: 150px;
+    min-height: 150px;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+}
+
+.modal.show {
+    z-index: 9999;
+}
