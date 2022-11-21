@@ -45,6 +45,11 @@
 @endsection
 
 @section('content')
+<style>
+    .btn-alt-base-1 {
+        background: #445ee2!important;
+    }
+</style>
 <!-- Breadcrumbs -->
 <section id="breadcrumb-wrapper" class="position-relative bg-light d-md-block d-none">
     {{-- <div class="image">
