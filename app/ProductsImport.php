@@ -95,9 +95,9 @@ class ProductsImport implements ToCollection, WithHeadingRow, WithValidation,Ski
                     }else{
                         $product_num = 0;
                     }
-
+                    // .'-'.$product_num
                     if($product_num > 0){
-                        $product['slug'] = str_replace(' ','-',strtolower(trim($w))).'-'.$product_num;
+                        $product['slug'] = str_replace(' ','-',strtolower(trim($w)));
                     }else{
                         $product['slug'] = str_replace(' ','-',strtolower(trim($w)));
                     }

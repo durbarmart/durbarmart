@@ -35,3 +35,9 @@ categories - bulk delete, items per page
 seller products - bulk delete / items per page
 sellers - bulk delete / items per page
 categories lai csv ma download garney option
+
+new domain
+    project setup
+    git setup
+    domain setup
+    issues fix
