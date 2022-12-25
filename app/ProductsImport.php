@@ -37,7 +37,7 @@ class ProductsImport implements ToCollection, WithHeadingRow, WithValidation,Ski
     {   
         set_time_limit(0);     
         $vendor_exists = 0;
-
+// dd($row);
         foreach($row as $c => $d){
             $cat_id = '';
             $subcat_id = '';
@@ -77,9 +77,6 @@ class ProductsImport implements ToCollection, WithHeadingRow, WithValidation,Ski
             foreach($d as $a => $b){
                 if($a == 'title' && $b != ''){
                     $product['name'] = $b;
-                    // $product['slug'] = str_replace(' ','-',strtolower(trim($b)));
-                }
-                elseif($a == 'handle' && $b != ''){
                     
                     $x = str_replace(')','',$b);
 
@@ -95,12 +92,15 @@ class ProductsImport implements ToCollection, WithHeadingRow, WithValidation,Ski
                     }else{
                         $product_num = 0;
                     }
-                    // .'-'.$product_num
+
                     if($product_num > 0){
-                        $product['slug'] = str_replace(' ','-',strtolower(trim($w)));
+                        $product['slug'] = str_replace(' ','-',strtolower(trim($w))).'-'.$product_num;
                     }else{
                         $product['slug'] = str_replace(' ','-',strtolower(trim($w)));
-                    }
+                    } 
+                    // $product['slug'] = str_replace(' ','-',strtolower(trim($b)));
+                }
+                elseif($a == 'handle' && $b != ''){
                 }
                 elseif($a == 'vendor' && $b != ''){
                     if($b != 'admin'){
@@ -384,7 +384,7 @@ class ProductsImport implements ToCollection, WithHeadingRow, WithValidation,Ski
                 //     $product['added_by'] = $b;
                 // }
                 elseif($a == 'image_src' && $b != ''){
-                // dd($a);
+                    // dd($a);
                     $product['featured_img'] = $b;
                     $product['thumbnail_img'] = $b;
                     $product['flash_deal_img'] = $b; 
@@ -429,7 +429,7 @@ class ProductsImport implements ToCollection, WithHeadingRow, WithValidation,Ski
                 
             
                 
-                $product['choice_options'] = json_encode(array());
+                $product['  choice_options'] = json_encode(array());
                 $product['colors'] =json_encode(array());
                 // dd($product);
             }

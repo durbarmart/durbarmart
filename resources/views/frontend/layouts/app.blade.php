@@ -100,16 +100,16 @@
 <!-- jQuery -->
 <script src="{{ asset('frontend/js/vendor/jquery.min.js') }}"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178882546-1"></script>
+{{-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178882546-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-178882546-1');
-</script>
+</script> --}}
 
-{{-- @if (\App\BusinessSetting::where('type', 'google_analytics')->first()->value == 1)
+@if (\App\BusinessSetting::where('type', 'google_analytics')->first()->value == 1)
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ env('TRACKING_ID') }}"></script>
 
@@ -119,7 +119,7 @@
       gtag('js', new Date());
       gtag('config', '{{ env('TRACKING_ID') }}');
     </script>
-@endif --}}
+@endif
 
 <!-- Facebook Pixel Code -->
 {{-- @if (\App\BusinessSetting::where('type', 'facebook_pixel')->first()->value == 1)
