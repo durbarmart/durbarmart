@@ -41,3 +41,9 @@ new domain
     git setup
     domain setup
     issues fix
+
+
+description ma url kina aayena vanera issues hereko
+
+
+
